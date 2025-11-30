@@ -62,31 +62,31 @@ const Home = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center relative z-10">
           <div className="relative">
              <div className="absolute -top-6 -left-6 w-full h-full border-2 border-gold-400/30 rounded-2xl z-0"></div>
-             {/* Iconic Aarti Image */}
+             {/* Iconic Varanasi Image - Ghats Architecture */}
              <img 
-                src="https://images.unsplash.com/photo-1627894483216-2138af692e32?q=80&w=800&auto=format&fit=crop" 
-                alt="Ganga Aarti" 
+                src="https://images.unsplash.com/photo-1588936611358-1f4f5a8904e5?q=80&w=800&auto=format&fit=crop" 
+                alt="Ancient Ghats of Varanasi" 
                 className="relative z-10 rounded-2xl shadow-2xl w-full h-[500px] object-cover"
              />
              <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-xl shadow-xl z-20 max-w-xs border-t-4 border-maroon-600 hidden md:block">
                 <div className="flex items-center gap-2 mb-2">
                     <Flower2 className="text-maroon-600" size={24} />
-                    <span className="font-serif font-bold text-maroon-900">Spiritual Bliss</span>
+                    <span className="font-serif font-bold text-maroon-900">The Eternal City</span>
                 </div>
-                <p className="text-sm text-stone-600 italic">"The energy of Kashi is transformative. We provide the peace you need to absorb it."</p>
+                <p className="text-sm text-stone-600 italic">"Kashi is where the material meets the spiritual."</p>
              </div>
           </div>
           
           <div>
-            <span className="text-saffron-600 font-bold tracking-wider text-sm uppercase mb-2 block">Our Philosophy</span>
+            <span className="text-saffron-600 font-bold tracking-wider text-sm uppercase mb-2 block">Discover Kashi</span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-maroon-900 mb-6 leading-tight">
-              Where <span className="text-saffron-600">Devotion</span> Meets <span className="text-saffron-600">Comfort</span>
+              The Oldest Living City on <span className="text-saffron-600">Earth</span>
             </h2>
             <p className="text-stone-700 mb-6 leading-relaxed text-lg">
-              Hotel Kashi Mantram is more than just a place to stay; it is an extension of your spiritual journey. Situated in the labyrinthine heart of the Old City, we are moments away from the divine chaos of Godowlia Chowk and the serenity of the Ganges.
+              Varanasi, or Kashi, is not merely a destination; it is an awakening. As the eternal abode of Lord Shiva, it has stood as a beacon of spirituality for over three millennia. From the sacred chiming of temple bells to the mesmerizing evening Ganga Aarti, the city pulses with a divine energy found nowhere else.
             </p>
             <p className="text-stone-700 mb-10 leading-relaxed text-lg">
-              Return from the mesmerizing Ganga Aarti to a space designed for reflection. Our interiors reflect the warm, earthy tones of Varanasi, offering modern amenities like AC and Wi-Fi without breaking the ancient spell of the city.
+              Hotel Kashi Mantram is nestled in the heart of this ancient tapestry. We offer you a serene sanctuary just moments from the divine chaos of Godowlia Chowk and the purifying waters of the Ganges, allowing you to immerse yourself in history while resting in modern comfort.
             </p>
             
             <div className="grid grid-cols-2 gap-8 mb-10">
